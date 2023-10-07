@@ -1,12 +1,105 @@
 <!DOCTYPE html>
-    <html lang="en">
+    <html >
         <head>
-            <meta charest="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-sc
-            <title>Document</title>
+            <title> دورة html </title>
+            <style>
+                table,th,td {
+                    border:1px solid black; 
+                }
+            </style>
         </head>
-        <body>
-       welcom to HTML
+        <body dir="rtl">
+       <h1> دورة html </h1><!--title-->
+       <img src="html.png" height="150" width="150" alt="html logo">
+       <h2> وصف الدورة </h2><!--sub title-->
+       <p><!--discrubtion-->
+<b>HTML</b> هي طريقة لكتابه وهيكله صفحات الويب , هي لغه وصفيه اي انها تستخدم لوصف 
+الصفحه وتوزيع وترتيب محتواها من نصوص وروابط وصور ومقاطع فيديو وما الى ذلك 
+وهي المكون الرئيسي لاي موقع ويب تستخدم <strong>HTML</strong>
+مايسمى بالوسوم اوtags 
+وهي عباره عن رموز لكل منها مهمه خاصه يقوم بها 
+فمنها مايقوم بعرض العنوان وومنها مايقوم بعرض النصوص ومنها مايقوم بعرض الصور او الروابط او الفيديو 
+وهكذا يعرضها بالشكل المحدد والمطلوب  
+       </p>
+       <p><b>موعيد المحاضرات يوميا </b><br>
+       من الساعه 
+       8:00<sub>am</sub>
+       وحتى الساعه 
+       11:00<sub>am</sub>
+    </p>
+    <p><b>المستويات لهذه الدورة :</b><br>
+    1<sup>st</sup>level:اساسيات html<br>
+    2<sup>nd</sup>level:مفاهيم متقدمه في html
+</p><hr>
+<h2>اهداف هذه الدورة </h2>
+<ol type="A">
+    <li>التعرف على مفهوم html</li>
+    <li>تعلم الغرض من استخدام كل tags</li>
+    <li>تعلم كيفيه عمل المحتويات المعتاده في صفحات الويب</li>
+</ol>
+<h2>متطلبات هذه الدورة </h2>
+<ul type="circle">
+    <li>(سفاري , قوقل كروم)متصفح</li>
+<li>محرر نصوص </li>    
+</ul>
+<p>للمرجع قم بالضغط على 
+    <a herf="https://satr.codes/courses/12252016-2825-41ef-bc27-ad7338e8ca94/view">هنا</a>
+</p>
+<video width="150" height="500" controls>
+    <source src="vid.mp4" type="video/mp4">
+    عذرا لايمكن عرض هذا الفيديو
+</video>
+<audio controls >
+    <source src="m.mp3" type="audio/mp3">
+</audio>
+<table>
+    <caption>جدول اماكن المحاضرات </caption>
+    
+    <th>اليوم </th>
+   <th> المكان </th>
+</tr>
+<tr>
+    <td>الاحد والاثنين</td>
+    <td>class A</td>
+</tr>
+<tr>
+    <td>الثلاثاء والاربعاء</td>
+    <td>class B</td>
+    </tr>
+    <tr>
+    <td colspan="2">
+        الخميس 
+        عن بعد     
+    </td> 
+</tr>
+</table>
+<hr>
+<hr2>نموذج الانضمام للدورة </hr2>
+<form>
+    <label for="name">اسم المستخدم:</label>
+    <input type="text" id="name">
+    <p>الجنس :</p>
+    <input type="radio" id="male" name="gender">
+    <label for="male">ذكر</label>
+    <input type="radio" id="female" name="gender">
+    <label for="male">انثى</label>
+
+    <p>من اين سمعت عن html?</p>
+    <input type="checkbox" id="friend" name="friend">
+    <label for="friend">صديق</label><br>
+    <input type="checkbox" id="books" name="books">
+    <label for="books">كتب</label><br>
+    <input type="checkbox" id="social media" name="social media">
+    <label for="social media">وسائل التواصل الاجتماعي</label><br>
+
+    <label for="city">اختر مدينتك :</label><br>
+    <select id="city" name="city">
+        <option value="riyadh">الرياض</option>
+        <option value="jeddah">جده</option>
+        <option value="dammam">الدمام</option>
+    </select><br><br>
+    <input type="submit" value="انضمام">
+</form>
             <body>
     </html>
 </DOCTYPE>
